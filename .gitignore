@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+ENV/
+ 
+# Secret Keys — NEVER push this!
+.env
+ 
+# Kaggle Dataset — too large for GitHub
+data/
+*.csv
+ 
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyoe
+*.pyd
+.Python
+ 
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+ 
+# VS Code settings
+.vscode/
+ 
+# PyCharm settings
+.idea/
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# Embedding model cache (downloaded automatically)
+.cache/
+models/
+ 
+# Logs
+*.log
