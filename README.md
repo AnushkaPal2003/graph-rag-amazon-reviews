@@ -181,13 +181,11 @@ You: Which phone has the most reviews?
 ### 1. Keyword Search (old way)
 ```
 Query: "best phone"   → finds "best phone" ✅
-Query: "achha phone"  → finds nothing      ❌
 ```
 
 ### 2. Semantic Search with Embeddings (new way)
 ```
 Query: "best phone"      → works ✅
-Query: "achha phone"     → works ✅ (same meaning!)
 Query: "heating issues"  → finds reviews about
                            "overheats", "gets warm",
                            "battery heats up"  ✅
